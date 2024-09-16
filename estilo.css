@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background:grey; */
+    /* background-image:url("https://images.unsplash.com/photo-1422493757035-1e5e03968f95?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D"); */
+    background-color: blue;
+    animation: mudarCores 5s infinite;
+
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    background-attachment:fixed;
+
+
+}
+
+img{
+    margin-left: 100px;
+    height: 200px;
+}
+
+main{
+    /* border:red 3px dotted; */
+    width: 70%;
+    margin: auto;
+    padding: 25px;
+    background-color: rgba(255, 228, 196, 0.826);
+    border-radius: 30px;
+
+
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: 	#D2691E;
+    /* font-weight: lighter; */
+    /* font-style: italic; */
+    font-stretch: normal;
+    line-height: 20px;
+    /* letter-spacing: 3px; */
+    word-spacing: 15px;
+    text-align: justify;
+    text-decoration: underline dashed red;
+    /* text-transform: uppercase; */
+    text-indent: 20px;
+    text-shadow: 5px 5px 10px red;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline wavy black;
+    font-weight: 100px;
+    word-spacing: 20px;
+    font-style: italic;
+    background-color:blanchedalmond;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 30px;
+    border:red 3px dotted;
+
+
+
+
+}
+footer{
+    text-align: center;
+    color: rgb(5, 5, 7);
+    font-weight: 100px;
+}
+
+@keyframes mudarCores {
+    0% {
+        background-color:coral;
+    }
+    25% {
+        background-color: black;
+    }
+    50%{
+        background-color: brown;
+    }
+    75%{
+        background-color: darkorange;
+    }
+    100%{
+        background-color: firebrick;
+    }
+}
